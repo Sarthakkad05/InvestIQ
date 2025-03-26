@@ -28,7 +28,7 @@ export const TranslationProvider = ({ children }) => {
   };
 
   const toggleLanguage = () => {
-    setLanguage((prev) => (prev === "en" ? "hi" : "en"));
+    setLanguage((prev) => (prev === "en" ? "ta" : "en"));
   };
 
   return (

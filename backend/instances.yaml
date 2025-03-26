@@ -1,0 +1,14 @@
+type: object
+properties:
+  feature1:
+    type: number
+  feature2:
+    type: string
+  feature3:
+    type: array
+    items:
+      type: number
+example:
+  feature1: 1.23
+  feature2: "example_text"
+  feature3: [0.1, 0.2, 0.3]

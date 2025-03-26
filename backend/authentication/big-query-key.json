@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "smiling-sweep-450612-g4",
+  "private_key_id": "a6fb991629e7bb24caf1eb10a13d6cbd694d94ce",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDNvue02P2A1I3I\nBe13DIdPvQ3vQxKA8/oyWu3fKFAbXfeatpZxj1M2y7ziDGCjoxbavt6G8Uaik3WP\ntp97nma3UWeRM6RjyVZ4YZVOiwcSel91rG+uuCsSk1fMulHKQV3xojtRpVZCG2wO\n9AwioVqfa4UgWgEIcKGGy4HLTWU5Y78qrdm5rjG7N6R1E+Avg/lGvs7jRcIjBNRW\nEGacFLD+A+q3Cg2BLoMn+cTB54cbXoSlKpm7r3ihI/SKLYefsA21HsAVjnpdloHo\n1iUJr9Y1SiA67Ikg6ebulAG7wwURsFB+UrtmGXwGXvbz4CifYIviIu0wCbzvDncK\nz1XHFh7TAgMBAAECggEAHNv6/apfifib7UNXlxanduSFKzB0of3sSa/ozx/ad1xA\n5O9Y6ZOPD+VCw0+1Jn7ehSRiFk+K9uGe4IpfPc8Zh/vf08WIo4PpoHfKTPrCAoeD\nvapy/UZRVF5dNxb+GKlT7MGIIeBX2cH68EYEhb8C9SWhxh3vKH3pSlJgDGJOITRq\nEoi0yPUtFODwXRFQ0RmFV/QMxxWjjH00PT+9/Sw/dDOAzrjKhhJr4gVrIhjn1Nrt\nely2boSXkgRYBjjbyg6GKY7PG1wbRqYGYN454h0JxSAN8uqyHVbiAG98RoufcIxr\nNTZI3RGChNRqPsKFUAVdQGoCOEWhrSbdoUQK/yHuUQKBgQD0k2KTkwx1jJNFrYA3\nZ9c3uxRAZYgdlb6x+klaXbe5OHEM/1IUn/88oMHCGUtDsxbekhcxpfEGOlKdXRQe\nU3IdLJKTwMXjamh2cUktRJl8YO7l9PFmI6fDYV6YtN9SN43GNupXplNEGpH8UTI/\n4dGnxfcSZvskaFH80PZYUpbU9wKBgQDXWzG/MFx3TXXUOZP6Zqka14E1muCHQHwL\n+XR9Vn3iuXq9bQpskxJex/BofEZc1IhqIK3UwHZpAlMvyG5UZ5lLX0lWW9xAW5yh\nLE5rEiVMpLjcXEdgCCDoB+wmQ7HB/y1VYKJGW/4mN/x1UiOrEbvlRGxjqUInWP6H\nxm9TjDw6BQKBgDiSSs/lyJD8FiiczDaEn2R1smZ+1bA6LeTPBt6PJOsD4ipmeF7q\n70ffy1GRNjaPmy+aTSEfyBNvtCJQIFIvbQrQf4sLoPpMZ6NV6t48qt/5L+ki8h91\nCd4IjK/3zlwfG30IwMXLZCExoCjjwyLBohQTl2W7SkYOl0BKOWEOoXLbAoGAALaL\nlp95XufBwR8jr0uRucYG5n+JyMjc4ElGKngT2KFWl7P5udxOzkOJNz9aGEqX3QoY\nqUCt47EfR2Q5gUwKhOZe3stVEl17SklURSR9PSC6f/hKQDYmrb4A+St2Njc7FjJI\nt0TstYGv809/ULyxS5QLa9UOpAS2awqsKbGoLWUCgYBVZg7vRBg8llujiWWB6qlN\nnrC5GBrCZ4qYHAe5A87GmXUW4v8Hac7FaZlNeH2T81be91QGZ8g18Tbtn6oXGD/Q\n40hShSSANo1mFdOjWylcM9BK71t3aC1yYgYjMcNnVQaYm7o6DyCjbY0FYlEHBsyG\nprYOjjuuXMT4eS9DkhfHtw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "investiq@smiling-sweep-450612-g4.iam.gserviceaccount.com",
+  "client_id": "114823742375478028571",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/investiq%40smiling-sweep-450612-g4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

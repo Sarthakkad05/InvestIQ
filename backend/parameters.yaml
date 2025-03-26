@@ -1,0 +1,6 @@
+type: object
+properties:
+  threshold:
+    type: number
+example:
+  threshold: 0.5

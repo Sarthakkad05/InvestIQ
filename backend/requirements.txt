@@ -1,0 +1,29 @@
+# FastAPI for backend
+fastapi
+uvicorn
+
+# Database (MySQL)
+mysql-connector-python
+
+# Data Fetching & Processing
+yfinance
+pandas
+numpy
+requests
+
+# Authentication (Firebase)
+firebase-admin
+
+# Chatbot (Google Gemini API)
+google-generativeai
+
+# AI/ML (Future use)
+scikit-learn
+torch
+transformers
+
+# Web Scraping (If needed)
+beautifulsoup4
+
+# Environment Variables (If using .env files)
+python-dotenv

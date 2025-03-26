@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { useLocation } from "react-router-dom";
+import { useTranslation } from "../context/TranslationContext"; 
 import SearchIcon from "../icons/SearchIcon";
 import remarkGfm from "remark-gfm";
 import axios from "axios";
@@ -13,6 +14,8 @@ export default function Chatbot() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [userId, setUserId] = useState(null);
+
+  const { translateText, language } = useTranslation(); 
 
   const location = useLocation();
   const initialMessage = location.state?.initialMessage || "";
@@ -31,32 +34,42 @@ export default function Chatbot() {
 
   const sendMessage = async (msg = input) => {
     if (!msg.trim()) return;
-
-    const userMessage = { sender: "user", text: msg };
-    setMessages((prev) => [...prev, userMessage]);
+  
+    setMessages((prev) => [...prev, { sender: "user", text: msg }]);
     setLoading(true);
-
+  
     try {
       const response = await axios.post(
         API_URL,
         { user_id: userId || "guest", message: msg },
         { headers: { "Content-Type": "application/json" } }
       );
+  
+      const botMessage = {
+        sender: "bot",
+        text: response.data.reply || "⚠️ Error: No response received.",
+      };
+  
 
-      const botMessage = { sender: "bot", text: response.data.reply || "⚠️ Error: No response received." };
-      setMessages((prev) => [...prev, botMessage]);
+      const translatedBotMessage = {
+        sender: "bot",
+        text: await translateText(botMessage.text),
+      };
+  
+      setMessages((prev) => [...prev, translatedBotMessage]);
     } catch (error) {
       console.error("Error response:", error.response?.data || error.message);
-
+  
       setMessages((prev) => [
         ...prev,
         { sender: "bot", text: "⚠️ Error fetching response. Try again!" },
       ]);
     }
-
+  
     setLoading(false);
     setInput("");
   };
+  
 
   return (
     <div className="flex bg-[#09090b] flex-col h-screen text-white">
@@ -102,7 +115,7 @@ export default function Chatbot() {
           onClick={sendMessage}
           disabled={loading}
         >
-          <SearchIcon/>
+          <SearchIcon />
         </button>
       </div>
     </div>

@@ -164,7 +164,7 @@ const Navbar = () => {
               onClick={toggleLanguage}
               className="px-4 py-2 bg-[#3c82f6] text-white rounded-lg"
             >
-              {language === "en" ? "हिंदी" : "English"}
+              {language === "en" ? "தமிழ்" : "English"}
             </button>
           </div>
         </div>

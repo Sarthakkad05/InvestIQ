@@ -1,0 +1,35 @@
+# Python files and environment
+*.pyc
+__pycache__/
+venv/
+*.log
+
+# Environment and sensitive keys
+.env
+firebase-adminsdk.json
+big-query-key.json
+
+# Node modules and build files
+node_modules/
+*.cache
+dist/
+build/
+
+# OS / IDE / Editor files
+.DS_Store
+.vscode/
+*.swp
+*.swo
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+
+# YAML files (optional — ignore if they’re sensitive configs)
+instances.yaml
+parameters.yaml
+predictions.yaml
+
+# Dependencies lock (optional, keep if you want deterministic installs)
+package-lock.json
+Pipfile.lock
